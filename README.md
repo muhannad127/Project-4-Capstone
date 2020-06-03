@@ -48,7 +48,7 @@ The pandemic has impacted many aspects of normal day-to-day life globally. Among
 * run.py: script to run web app
 * methods.py: pieces of code from notebook necessary to visualize data in web app
 * templates:
-  * master_2.html: template for the web app
+  * master_1.html: template for the web app
 
 * README.md: this file
 
@@ -59,6 +59,29 @@ Islands with tourism as a main source of income witnessed the greatest drop in m
 As for contients, South America scores highest average drop in mobility for all location types, followed by North America. Africa scores lowest mobility drop for all location types except parks, grocery and pharmacy, and residential.
 
 using spearman correlation, retail, recreation, and transit station have the greatest negative correlation with coronavirus cases. Parks has the least correlation.
+
+## The Web App
+
+After cloning the project, to run the web app cd to 'Project-4-Capstone' and run command:
+
+'''
+python run.py
+'''
+
+or
+'''
+python3 run.py
+'''
+
+After that open the web browser and go to http://0.0.0.0:3001 and the web app page should be loaded
+
+This error might occur: ModuleNotFoundError: No module named 'numpy.testing.nosetester'.
+
+if it does make sure all libraries mentioned above are installed to latest version. if the error is still present, run:
+
+'''
+pip install -U scipy
+'''
 
 ## Acknowledgements
 
