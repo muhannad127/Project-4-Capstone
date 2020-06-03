@@ -64,14 +64,14 @@ using spearman correlation, retail, recreation, and transit station have the gre
 
 After cloning the project, to run the web app cd to 'Project-4-Capstone' and run command:
 
-'''
+```
 python run.py
-'''
+```
 
 or
-'''
+```
 python3 run.py
-'''
+```
 
 After that open the web browser and go to http://0.0.0.0:3001 and the web app page should be loaded
 
@@ -79,9 +79,9 @@ This error might occur: ModuleNotFoundError: No module named 'numpy.testing.nose
 
 if it does make sure all libraries mentioned above are installed to latest version. if the error is still present, run:
 
-'''
+```
 pip install -U scipy
-'''
+```
 
 ## Acknowledgements
 
